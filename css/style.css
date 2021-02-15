@@ -418,7 +418,6 @@ footer {
 
 .poster {
   background-color: var(--second-text);
-  padding-bottom: 20px;
   border: 1px solid #eeeeee;
 }
 
@@ -430,20 +429,20 @@ footer {
 
 .poster img {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   display: block;
+}
+
+.poster .card-content {
+  padding: 20px 24px;
 }
 
 .poster h3 {
   margin-top: 0;
   margin-bottom: 4px;
-  padding-right: 24px;
-  padding-left: 24px;
 }
 
 .poster p {
   margin-top: 0;
   margin-bottom: 0;
-  padding-right: 24px;
-  padding-left: 24px;
 }
